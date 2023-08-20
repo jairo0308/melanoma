@@ -123,7 +123,7 @@ test_tensors = np.load("/content/drive/MyDrive/proces/augmented_test_tensors.npy
 #Establecemos parametros para entrenamiento
 
 epocas=100
-longitud, altura = 240, 2400
+longitud, altura = 224, 224
 batch_size = 32
 #***********************************
 pasos = 100
